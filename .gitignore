@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# JetBrains
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.bak
+
+# Node (якщо колись буде)
+node_modules/
+
+# OS
+Thumbs.db
