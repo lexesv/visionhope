@@ -1,0 +1,14 @@
+{
+  "languages": [
+    {
+      "code": "uk",
+      "name": "Українська",
+      "short": "UA"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "short": "EN"
+    }
+  ]
+}

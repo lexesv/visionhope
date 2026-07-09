@@ -1,0 +1,50 @@
+{
+  "goal": 36000,
+  "raised": 0,
+  "currency": "USD",
+  "updated": "2026-07-09",
+  "note_uk": "Остаточна сума може бути уточнена після очної консультації та фінального плану лікування.",
+  "note_en": "The final amount may be adjusted after an in-person consultation and final treatment plan.",
+  "methods": [
+    {
+      "id": "monobank",
+      "title": "Monobank",
+      "type": "url",
+      "value": "https://send.monobank.ua/REPLACE_ME",
+      "icon": "fa-solid fa-building-columns",
+      "enabled": true
+    },
+    {
+      "id": "iban-eur",
+      "title": "IBAN EUR Monobank",
+      "type": "iban",
+      "value": "REPLACE_WITH_EUR_IBAN",
+      "icon": "fa-solid fa-euro-sign",
+      "enabled": true
+    },
+    {
+      "id": "paypal",
+      "title": "PayPal",
+      "type": "email",
+      "value": "REPLACE_WITH_PAYPAL_EMAIL",
+      "icon": "fa-brands fa-paypal",
+      "enabled": true
+    },
+    {
+      "id": "nowpayments",
+      "title": "NOWPayments",
+      "type": "url",
+      "value": "https://nowpayments.io/payment/?iid=REPLACE_ME",
+      "icon": "fa-brands fa-bitcoin",
+      "enabled": true
+    },
+    {
+      "id": "whitepay",
+      "title": "WhitePay",
+      "type": "url",
+      "value": "https://whitepay.com/donate/REPLACE_ME",
+      "icon": "fa-solid fa-coins",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "date": "2006",
+    "year": 2006,
+    "title_uk": "Перший підтверджений діагноз",
+    "title_en": "First confirmed diagnosis",
+    "text_uk": "У документах 2008 року зазначено, що діагноз кератоконус був встановлений кератотопографічно у 2006 році.",
+    "text_en": "The 2008 medical documents state that keratoconus was confirmed by corneal topography in 2006."
+  },
+  {
+    "date": "08.10.2008",
+    "year": 2008,
+    "title_uk": "Комплексне обстеження",
+    "title_en": "Comprehensive examination",
+    "text_uk": "Проведено огляд, Orbscan, Visante OCT, пахіметрію та карти рогівки у клініці «Візус». Скарга: швидке погіршення зору правого ока.",
+    "text_en": "A comprehensive examination was performed, including Orbscan, Visante OCT, pachymetry and corneal maps. The main complaint was rapid deterioration of vision in the right eye."
+  },
+  {
+    "date": "11.11.2008",
+    "year": 2008,
+    "title_uk": "Крослінкінг правого ока",
+    "title_en": "Right-eye cross-linking",
+    "text_uk": "Виконано UV-X / крослінкінг правого ока. Подальший контроль підтвердив післяопераційне загоєння без ускладнень.",
+    "text_en": "UV-X / corneal cross-linking was performed on the right eye. Follow-up confirmed postoperative healing without complications."
+  },
+  {
+    "date": "26.03.2009",
+    "year": 2009,
+    "title_uk": "Контрольне OCT",
+    "title_en": "Follow-up OCT",
+    "text_uk": "Виконано контрольні звіти Visante OCT переднього сегмента.",
+    "text_en": "Follow-up Visante anterior segment OCT reports were performed."
+  },
+  {
+    "date": "12.11.2020",
+    "year": 2020,
+    "title_uk": "Підтверджено PMD та зміни сітківки",
+    "title_en": "PMD and retinal changes documented",
+    "text_uk": "У висновку згадується оперована пелюцидна маргінальна дегенерація обох очей, міопічні зміни, атрофія ПЕС та периферична хоріоретинальна дистрофія. Рекомендовано огляд периферії очного дна для вирішення питання ППЛК.",
+    "text_en": "The report notes operated pellucid marginal degeneration of both eyes, myopic changes, retinal pigment epithelium atrophy and peripheral chorioretinal dystrophy. Peripheral retinal examination was recommended to decide on prophylactic laser coagulation."
+  },
+  {
+    "date": "27.11.2021",
+    "year": 2021,
+    "title_uk": "ППЛК обох очей",
+    "title_en": "Prophylactic retinal laser treatment",
+    "text_uk": "Виконано профілактичну периферичну лазерну коагуляцію сітківки обох очей через периферичні зміни сітківки.",
+    "text_en": "Prophylactic peripheral laser coagulation of both retinas was performed because of peripheral retinal changes."
+  },
+  {
+    "date": "11.12.2021",
+    "year": 2021,
+    "title_uk": "Контроль після ППЛК",
+    "title_en": "Follow-up after retinal laser treatment",
+    "text_uk": "Контрольний огляд після ППЛК. У документах знову згадується оперована PMD обох очей, висока міопія та рекомендація склеральних лінз.",
+    "text_en": "Follow-up after prophylactic retinal laser treatment. The documents again mention operated PMD of both eyes, high myopia and a recommendation for scleral lenses."
+  },
+  {
+    "date": "05–06.2026",
+    "year": 2026,
+    "title_uk": "Сучасні обстеження та пошук лікування за кордоном",
+    "title_en": "Current examinations and search for treatment abroad",
+    "text_uk": "Останні обстеження, включно з топографією та Pentacam/Topcon, стали основою для пошуку можливостей лікування в Ізраїлі.",
+    "text_en": "Recent examinations, including topography and Pentacam/Topcon, became the basis for seeking treatment options in Israel."
+  }
+]
