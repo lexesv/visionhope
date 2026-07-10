@@ -2,49 +2,115 @@
   "goal": 36000,
   "raised": 0,
   "currency": "USD",
-  "updated": "2026-07-09",
+  "updated": "2026-07-10",
   "note_uk": "Остаточна сума може бути уточнена після очної консультації та фінального плану лікування.",
   "note_en": "The final amount may be adjusted after an in-person consultation and final treatment plan.",
   "methods": [
     {
       "id": "monobank",
-      "title": "Monobank",
-      "type": "url",
-      "value": "https://send.monobank.ua/REPLACE_ME",
+      "title_uk": "Monobank",
+      "title_en": "Monobank",
+      "description_uk": "Підтримка через платіжну сторінку Monobank.",
+      "description_en": "Support through the Monobank payment page.",
+      "display_uk": "Перехід на платіжний сервіс",
+      "display_en": "Open the payment service",
       "icon": "fa-solid fa-building-columns",
-      "enabled": true
+      "priority": 10,
+      "enabled": false,
+      "action": {
+        "type": "link",
+        "value": "https://send.monobank.ua/REPLACE_ME",
+        "label_uk": "Відкрити",
+        "label_en": "Open"
+      }
     },
     {
       "id": "iban-eur",
-      "title": "IBAN EUR Monobank",
-      "type": "iban",
-      "value": "REPLACE_WITH_EUR_IBAN",
+      "title_uk": "IBAN EUR Monobank",
+      "title_en": "Monobank EUR IBAN",
+      "description_uk": "Переказ у євро на банківський рахунок.",
+      "description_en": "EUR bank transfer.",
+      "display_uk": "REPLACE_WITH_EUR_IBAN",
+      "display_en": "REPLACE_WITH_EUR_IBAN",
       "icon": "fa-solid fa-euro-sign",
-      "enabled": true
+      "priority": 20,
+      "enabled": false,
+      "action": {
+        "type": "copy",
+        "value": "REPLACE_WITH_EUR_IBAN",
+        "label_uk": "Копіювати IBAN",
+        "label_en": "Copy IBAN"
+      }
     },
     {
       "id": "paypal",
-      "title": "PayPal",
-      "type": "email",
-      "value": "REPLACE_WITH_PAYPAL_EMAIL",
+      "title_uk": "PayPal",
+      "title_en": "PayPal",
+      "description_uk": "Переказ на email, прив’язаний до PayPal.",
+      "description_en": "Send to the email linked to PayPal.",
+      "display_uk": "REPLACE_WITH_PAYPAL_EMAIL",
+      "display_en": "REPLACE_WITH_PAYPAL_EMAIL",
       "icon": "fa-brands fa-paypal",
-      "enabled": true
+      "priority": 30,
+      "enabled": false,
+      "action": {
+        "type": "copy",
+        "value": "REPLACE_WITH_PAYPAL_EMAIL",
+        "label_uk": "Копіювати email",
+        "label_en": "Copy email"
+      }
     },
     {
       "id": "nowpayments",
-      "title": "NOWPayments",
-      "type": "url",
-      "value": "https://nowpayments.io/payment/?iid=REPLACE_ME",
+      "title_uk": "NOWPayments",
+      "title_en": "NOWPayments",
+      "description_uk": "Підтримка криптовалютою через платіжний сервіс.",
+      "description_en": "Crypto support through a payment provider.",
+      "display_uk": "Перехід на платіжний сервіс",
+      "display_en": "Open the payment service",
       "icon": "fa-brands fa-bitcoin",
-      "enabled": true
+      "priority": 40,
+      "enabled": false,
+      "action": {
+        "type": "link",
+        "value": "https://nowpayments.io/payment/?iid=REPLACE_ME",
+        "label_uk": "Перейти до оплати",
+        "label_en": "Open payment page"
+      }
     },
     {
       "id": "whitepay",
-      "title": "WhitePay",
-      "type": "url",
-      "value": "https://whitepay.com/donate/REPLACE_ME",
+      "title_uk": "WhitePay",
+      "title_en": "WhitePay",
+      "description_uk": "Підтримка криптовалютою через WhitePay.",
+      "description_en": "Crypto support through WhitePay.",
+      "display_uk": "Перехід на платіжний сервіс",
+      "display_en": "Open the payment service",
       "icon": "fa-solid fa-coins",
-      "enabled": true
+      "priority": 50,
+      "enabled": false,
+      "action": {
+        "type": "link",
+        "value": "https://whitepay.com/donate/REPLACE_ME",
+        "label_uk": "Перейти до оплати",
+        "label_en": "Open payment page"
+      }
+    },
+    {
+      "id": "custom-text-example",
+      "title_uk": "Інший спосіб підтримки",
+      "title_en": "Another support method",
+      "description_uk": "Приклад способу, який показує звичайний текст без кнопки.",
+      "description_en": "Example of a method that displays plain text without a button.",
+      "display_uk": "REPLACE_WITH_TEXT",
+      "display_en": "REPLACE_WITH_TEXT",
+      "icon": "fa-solid fa-circle-info",
+      "priority": 100,
+      "enabled": false,
+      "action": {
+        "type": "text",
+        "value": ""
+      }
     }
   ]
 }
