@@ -13,7 +13,7 @@ Static GitHub Pages website for a documented treatment story and fundraising cam
 
 ## Before publishing
 
-1. Replace `https://example.pp.ua` in HTML files, `robots.txt`, `sitemap.xml`, and `assets/data/config.json` with your real domain.
+1. Replace `https://visionhope.pp.ua` in HTML files, `robots.txt`, `sitemap.xml`, and `assets/data/config.json` with your real domain.
 2. Edit `assets/data/support.json` and replace placeholder payment details.
 3. Add a real Open Graph image at `assets/img/og-image.jpg`.
 4. Review all documents and remove or mask any personal data you do not want public.

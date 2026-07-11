@@ -13,7 +13,7 @@ This package is a ready GitHub repository for the first public website version w
 
 ## Before publishing
 1. Register a domain.
-2. Replace `https://example.pp.ua` with the real domain.
+2. Replace `https://visionhope.pp.ua` with the real domain.
 3. Edit `assets/data/support.json`.
 4. Review every document before making the repository public.
 5. Rename `CNAME.example` to `CNAME` and put the domain inside.
