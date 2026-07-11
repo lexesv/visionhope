@@ -1,8 +1,14 @@
 {
-  "siteName": "Vision Treatment Journey",
-  "defaultLanguage": "uk",
-  "fallbackLanguage": "en",
-  "baseUrl": "https://example.pp.ua",
-  "version": "1.2.0",
-  "lastUpdated": "2026-07-09"
+  "project": {
+    "name": "VisionHope",
+    "version": "0.1.0",
+    "status": "development"
+  },
+  "site": {
+    "url": "https://visionhope.pp.ua",
+    "defaultLanguage": "uk"
+  },
+  "contact": {
+    "email": "alexandr.vasilega@gmail.com"
+  }
 }
