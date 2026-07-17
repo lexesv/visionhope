@@ -1,10 +1,37 @@
 
+function getProtectedContactEmail(){
+  const decode=codes=>codes.map(code=>String.fromCharCode(code)).join('');
+  const localPart=decode([97,108,101,120,97,110,100,114,46,118,97,115,105,108,101,103,97]);
+  const domain=decode([103,109,97,105,108,46,99,111,109]);
+  return `${localPart}@${domain}`;
+}
+
 function initProtectedContactEmail(){
-  const localPart=[97,108,101,120,97,110,100,114,46,118,97,115,105,108,101,103,97].map(String.fromCharCode).join('');
-  const domain=[103,109,97,105,108,46,99,111,109].map(String.fromCharCode).join('');
-  document.querySelectorAll('[data-contact-email]').forEach(button=>{
-    button.addEventListener('click',()=>{
-      window.location.href=`mailto:${localPart}@${domain}`;
+  const email=getProtectedContactEmail();
+
+  document.querySelectorAll('[data-contact-email]').forEach(link=>{
+    link.href=`mailto:${email}`;
+  });
+
+  document.querySelectorAll('[data-copy-contact-email]').forEach(button=>{
+    button.addEventListener('click',async()=>{
+      const originalLabel=button.textContent;
+      try{
+        await navigator.clipboard.writeText(email);
+        button.textContent=t('Адресу скопійовано','Address copied');
+      }catch(error){
+        const textarea=document.createElement('textarea');
+        textarea.value=email;
+        textarea.setAttribute('readonly','');
+        textarea.style.position='fixed';
+        textarea.style.opacity='0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        const copied=document.execCommand('copy');
+        textarea.remove();
+        button.textContent=copied?t('Адресу скопійовано','Address copied'):t('Не вдалося скопіювати','Copy failed');
+      }
+      setTimeout(()=>{button.textContent=originalLabel;},1800);
     });
   });
 }
