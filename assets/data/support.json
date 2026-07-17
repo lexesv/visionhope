@@ -27,7 +27,7 @@
     {
       "id": "iban-eur",
       "title_uk": "IBAN EUR Monobank",
-      "title_en": "Monobank EUR IBAN ",
+      "title_en": "Monobank EUR IBAN",
       "description_uk": "Переказ у євро на банківський рахунок (SEPA).",
       "description_en": "EUR bank transfer (SEPA).",
       "display_uk": "GB42CLJU00997180467942",
@@ -48,11 +48,11 @@
       "title_en": "PayPal",
       "description_uk": "Переказ на email, прив’язаний до PayPal.",
       "description_en": "Send to the email linked to PayPal.",
-      "display_uk": "alexandr.vasilega@gmail.com",
-      "display_en": "alexandr.vasilega@gmail.com",
+      "display_uk": "alexandr.vasilega@gmail.com<br><img width=150 src='/assets/img/paypal-qr.png'></img>",
+      "display_en": "alexandr.vasilega@gmail.com<br><img width=150 src='/assets/img/paypal-qr.png'></img>",
       "icon": "fa-brands fa-paypal",
       "priority": 30,
-      "enabled": false,
+      "enabled": true,
       "action": {
         "type": "copy",
         "value": "alexandr.vasilega@gmail.com",
