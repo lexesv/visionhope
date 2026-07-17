@@ -30,14 +30,14 @@
       "title_en": "Monobank EUR IBAN ",
       "description_uk": "Переказ у євро на банківський рахунок (SEPA).",
       "description_en": "EUR bank transfer (SEPA).",
-      "display_uk": "REPLACE_WITH_EUR_IBAN",
-      "display_en": "REPLACE_WITH_EUR_IBAN",
+      "display_uk": "GB42CLJU00997180467942",
+      "display_en": "GB42CLJU00997180467942",
       "icon": "fa-solid fa-euro-sign",
       "priority": 20,
       "enabled": true,
       "action": {
         "type": "copy",
-        "value": "IBAN<br>GB42CLJU00997180467942<br>BIC code<br>CLJUGB21<br>Receiver<br>VASYLEHA OLEKSANDR<br>Support for medical treatment",
+        "value": "IBAN\nGB42CLJU00997180467942\nBIC code\nCLJUGB21\nReceiver\nVASYLEHA OLEKSANDR\nSupport for medical treatment",
         "label_uk": "Копіювати IBAN",
         "label_en": "Copy IBAN"
       }
