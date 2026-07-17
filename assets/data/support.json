@@ -9,7 +9,7 @@
     {
       "id": "monobank",
       "title_uk": "Monobank",
-      "title_en": "Monobank",
+      "title_en": "Monobank (Ukraine)",
       "description_uk": "Підтримка через платіжну сторінку Monobank (Банка).",
       "description_en": "Support through the Monobank payment page.",
       "display_uk": "Перехід на платіжний сервіс",
@@ -37,7 +37,7 @@
       "enabled": true,
       "action": {
         "type": "copy",
-        "value": "IBAN\nGB42CLJU00997180467942\nBIC code\nCLJUGB21\nReceiver\nVASYLEHA OLEKSANDR\nSupport for medical treatment",
+        "value": "IBAN:\nGB42CLJU00997180467942\nBIC code:\nCLJUGB21\nReceiver:\nVASYLEHA OLEKSANDR\nReference:\nSupport for medical treatment",
         "label_uk": "Копіювати IBAN",
         "label_en": "Copy IBAN"
       }
@@ -48,14 +48,14 @@
       "title_en": "PayPal",
       "description_uk": "Переказ на email, прив’язаний до PayPal.",
       "description_en": "Send to the email linked to PayPal.",
-      "display_uk": "REPLACE_WITH_PAYPAL_EMAIL",
-      "display_en": "REPLACE_WITH_PAYPAL_EMAIL",
+      "display_uk": "",
+      "display_en": "",
       "icon": "fa-brands fa-paypal",
       "priority": 30,
-      "enabled": false,
+      "enabled": true,
       "action": {
         "type": "copy",
-        "value": "REPLACE_WITH_PAYPAL_EMAIL",
+        "value": "alexandr.vasilega@gmail.com",
         "label_uk": "Копіювати email",
         "label_en": "Copy email"
       }
