@@ -1,3 +1,14 @@
+
+function initProtectedContactEmail(){
+  const localPart=[97,108,101,120,97,110,100,114,46,118,97,115,105,108,101,103,97].map(String.fromCharCode).join('');
+  const domain=[103,109,97,105,108,46,99,111,109].map(String.fromCharCode).join('');
+  document.querySelectorAll('[data-contact-email]').forEach(button=>{
+    button.addEventListener('click',()=>{
+      window.location.href=`mailto:${localPart}@${domain}`;
+    });
+  });
+}
+
 const DATA_BASE = '/assets/data/';
 function lang(){return (location.pathname.split('/')[1]||'uk').replace(/[^a-z]/g,'') || 'uk'}
 function t(uk,en){return lang()==='en'?en:uk}
@@ -93,3 +104,5 @@ function activeNav(){
   });
 }
 document.addEventListener('DOMContentLoaded',()=>{setLanguageLinks();activeNav();renderSupportSummary();renderSupportMethods();renderTimeline();renderDocuments();renderUpdates();});
+
+document.addEventListener('DOMContentLoaded', initProtectedContactEmail);
