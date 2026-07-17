@@ -12,7 +12,7 @@ https://visionhope.pp.ua
 
 🚧 Under active development
 
-Current internal version: **0.1.0**
+Current internal version: **1.3.3**
 
 ## Main principles
 

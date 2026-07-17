@@ -1,12 +1,10 @@
 # Changelog
 
-## 1.3.0 — 2026-07-17
+## v1.3.3
 
-- Added Ukrainian and English identity verification pages.
-- Rebuilt the shared navigation and footer across all static pages.
-- Added identity links to the support flow and sitemap.
-- Added favicon, application icons, Open Graph image and manifest icons.
-- Improved responsive styling, accessibility and empty support-method handling.
+Maintenance release:
+- Synchronized the displayed project version across the site, README, and configuration.
+- Corrected the English footer label on the privacy page.
 
 ## v1.2.0
 
