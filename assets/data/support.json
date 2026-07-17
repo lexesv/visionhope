@@ -70,10 +70,10 @@
       "display_en": "Open the payment service",
       "icon": "fa-brands fa-bitcoin",
       "priority": 40,
-      "enabled": false,
+      "enabled": true,
       "action": {
         "type": "link",
-        "value": "https://nowpayments.io/payment/?iid=REPLACE_ME",
+        "value": "https://nowpayments.io/donation/ov",
         "label_uk": "Перейти до оплати",
         "label_en": "Open payment page"
       }
@@ -88,10 +88,10 @@
       "display_en": "Open the payment service",
       "icon": "fa-solid fa-coins",
       "priority": 50,
-      "enabled": false,
+      "enabled": true,
       "action": {
         "type": "link",
-        "value": "https://whitepay.com/donate/REPLACE_ME",
+        "value": "https://pay.whitepay.com/crypto-jars/a248682a-e325-4f10-8fb5-bef289f80708",
         "label_uk": "Перейти до оплати",
         "label_en": "Open payment page"
       }
