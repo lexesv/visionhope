@@ -10,16 +10,16 @@
       "id": "monobank",
       "title_uk": "Monobank",
       "title_en": "Monobank",
-      "description_uk": "Підтримка через платіжну сторінку Monobank.",
+      "description_uk": "Підтримка через платіжну сторінку Monobank (Банка).",
       "description_en": "Support through the Monobank payment page.",
       "display_uk": "Перехід на платіжний сервіс",
       "display_en": "Open the payment service",
       "icon": "fa-solid fa-building-columns",
       "priority": 10,
-      "enabled": false,
+      "enabled": true,
       "action": {
         "type": "link",
-        "value": "https://send.monobank.ua/REPLACE_ME",
+        "value": "https://send.monobank.ua/jar/8BkVa4zJs8",
         "label_uk": "Відкрити",
         "label_en": "Open"
       }
@@ -27,17 +27,17 @@
     {
       "id": "iban-eur",
       "title_uk": "IBAN EUR Monobank",
-      "title_en": "Monobank EUR IBAN",
-      "description_uk": "Переказ у євро на банківський рахунок.",
-      "description_en": "EUR bank transfer.",
+      "title_en": "Monobank EUR IBAN ",
+      "description_uk": "Переказ у євро на банківський рахунок (SEPA).",
+      "description_en": "EUR bank transfer (SEPA).",
       "display_uk": "REPLACE_WITH_EUR_IBAN",
       "display_en": "REPLACE_WITH_EUR_IBAN",
       "icon": "fa-solid fa-euro-sign",
       "priority": 20,
-      "enabled": false,
+      "enabled": true,
       "action": {
         "type": "copy",
-        "value": "REPLACE_WITH_EUR_IBAN",
+        "value": "IBAN<br>GB42CLJU00997180467942<br>BIC code<br>CLJUGB21<br>Receiver<br>VASYLEHA OLEKSANDR<br>Support for medical treatment",
         "label_uk": "Копіювати IBAN",
         "label_en": "Copy IBAN"
       }
