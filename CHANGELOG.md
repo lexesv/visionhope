@@ -1,4 +1,14 @@
 # Changelog
+## 1.4.0 — Production readiness audit
+
+- Added `browserconfig.xml` and `llms.txt`.
+- Corrected canonical and hreflang metadata, including the English privacy page.
+- Aligned home-page canonical URLs with `sitemap.xml`.
+- Added consistent social and application metadata.
+- Rebuilt the root language selector and 404 page.
+- Added navigation accessibility attributes.
+- Updated the web app manifest and synchronized the displayed version.
+
 
 ## v1.3.3
 

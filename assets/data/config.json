@@ -8,5 +8,6 @@
     "url": "https://visionhope.pp.ua",
     "defaultLanguage": "uk"
   },
-  "contact": {}
+  "contact": {},
+  "version": "1.4.0"
 }

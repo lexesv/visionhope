@@ -10,9 +10,9 @@ https://visionhope.pp.ua
 
 ## Status
 
-🚧 Under active development
+🚧 Production-ready; support methods and treatment estimates are updated as they become available
 
-Current internal version: **1.3.3**
+Current internal version: 1.4.0
 
 ## Main principles
 

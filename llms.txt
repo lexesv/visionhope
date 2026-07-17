@@ -1,0 +1,24 @@
+# VisionHope
+
+> VisionHope is a bilingual, privacy-conscious website documenting Oleksandr Vasyleha's long-term ophthalmology treatment journey, verified medical records, treatment updates, and ways to support future treatment.
+
+## Primary pages
+
+- [Ukrainian home](https://visionhope.pp.ua/uk/)
+- [English home](https://visionhope.pp.ua/en/)
+- [Medical case — Ukrainian](https://visionhope.pp.ua/uk/medical-case.html)
+- [Medical case — English](https://visionhope.pp.ua/en/medical-case.html)
+- [Medical documents — Ukrainian](https://visionhope.pp.ua/uk/documents.html)
+- [Medical documents — English](https://visionhope.pp.ua/en/documents.html)
+- [Treatment timeline — Ukrainian](https://visionhope.pp.ua/uk/timeline.html)
+- [Treatment timeline — English](https://visionhope.pp.ua/en/timeline.html)
+- [Identity and verification — Ukrainian](https://visionhope.pp.ua/uk/identity.html)
+- [Identity and verification — English](https://visionhope.pp.ua/en/identity.html)
+- [Support — Ukrainian](https://visionhope.pp.ua/uk/support.html)
+- [Support — English](https://visionhope.pp.ua/en/support.html)
+
+## Notes
+
+- Medical information is published for transparency and is not medical advice.
+- The website is available in Ukrainian and English.
+- Some personal information in medical documents may be masked for privacy.
