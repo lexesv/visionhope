@@ -1,1 +1,20 @@
-{"name":"Vision Treatment Journey","short_name":"VisionHope","start_url":"/","display":"standalone","background_color":"#ffffff","theme_color":"#2563eb","icons":[]}
+{
+  "name": "VisionHope — Treatment Journey",
+  "short_name": "VisionHope",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    {
+      "src": "/assets/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

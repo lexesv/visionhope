@@ -47,6 +47,8 @@ async function renderSupportMethods(){
     return '';
   };
 
+  if(!methods.length){el.innerHTML=`<div class="col-12"><div class="card"><div class="card-body"><p class="mb-0">${t('Способи підтримки зараз налаштовуються. Для уточнення використовуйте контакт на сторінці перевірки особи.','Support methods are currently being configured. Use the contact on the identity verification page for details.')}</p></div></div></div>`;return;}
+
   el.innerHTML=methods.map(m=>{
     const title=getLocalized(m,'title');
     const description=getLocalized(m,'description');
@@ -80,5 +82,5 @@ async function renderSupportMethods(){
 async function renderTimeline(){const el=document.querySelector('[data-timeline]'); if(!el)return; const d=await loadJSON('timeline-master.json'); el.innerHTML=`<div class="timeline">`+d.map(x=>`<div class="timeline-item"><span class="timeline-dot"></span><span class="badge badge-year mb-2">${x.date}</span><h3 class="h5">${lang()==='en'?x.title_en:x.title_uk}</h3><p>${lang()==='en'?x.text_en:x.text_uk}</p></div>`).join('')+`</div>`}
 async function renderDocuments(){const el=document.querySelector('[data-documents]'); if(!el)return; const docs=await loadJSON('documents.json'); const years=[...new Set(docs.map(d=>d.year))].sort(); el.innerHTML=years.map(y=>`<section class="mb-5 anchor-offset" id="year-${y}"><h2 class="h3 doc-year mb-3">${y}</h2><div class="row g-3">${docs.filter(d=>d.year===y).map(d=>`<div class="col-md-6 col-lg-4"><div class="card doc-card h-100"><div class="card-body"><div class="small-muted mb-1">${d.date} · ${lang()==='en'?d.category_en:d.category_uk}</div><h3 class="h6">${lang()==='en'?d.title_en:d.title_uk}</h3><p class="small-muted">${lang()==='en'?d.summary_en:d.summary_uk}</p><a class="btn btn-sm btn-outline-primary" href="/${d.file}" target="_blank" rel="noopener">${t('Переглянути','View')}</a></div></div></div>`).join('')}</div></section>`).join('')}
 async function renderUpdates(){const el=document.querySelector('[data-updates]'); if(!el)return; const d=await loadJSON('updates.json'); el.innerHTML=d.map(u=>`<div class="card mb-3"><div class="card-body"><div class="small-muted">${u.date}</div><h2 class="h5">${lang()==='en'?u.title_en:u.title_uk}</h2><p class="mb-0">${lang()==='en'?u.text_en:u.text_uk}</p></div></div>`).join('')}
-function activeNav(){document.querySelectorAll('.nav-link').forEach(a=>{if(a.getAttribute('href')===pageName())a.classList.add('active')})}
+function activeNav(){document.querySelectorAll('.nav-link').forEach(a=>{if(a.getAttribute('href')===pageName()){a.classList.add('active');a.setAttribute('aria-current','page')}})}
 document.addEventListener('DOMContentLoaded',()=>{setLanguageLinks();activeNav();renderSupportSummary();renderSupportMethods();renderTimeline();renderDocuments();renderUpdates();});
