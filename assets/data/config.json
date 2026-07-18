@@ -1,13 +1,13 @@
 {
   "project": {
     "name": "VisionHope",
-    "version": "1.4.2",
-    "status": "development"
+    "version": "1.4.3",
+    "status": "production"
   },
   "site": {
     "url": "https://visionhope.pp.ua",
     "defaultLanguage": "uk"
   },
   "contact": {},
-  "version": "1.4.2"
+  "version": "1.4.3"
 }

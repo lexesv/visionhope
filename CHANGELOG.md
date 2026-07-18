@@ -1,4 +1,13 @@
 # Changelog
+
+## 1.4.3 — Medical Consistency Update
+
+- Replaced the English PMD diagnosis on the Ukrainian Medical Case page with the correct Ukrainian terminology.
+- Added peripheral vitreochorioretinal / chorioretinal degeneration to the Key Diagnoses section on both home pages.
+- Standardized the English retinal diagnosis terminology across the Medical Case page and timeline data.
+- Synchronized the visible site version and configuration to 1.4.3.
+- Changed the project status in `config.json` from `development` to `production`.
+
 ## 1.4.2 — Retinal Treatment History Update
 
 - Added the emergency PPLC/retinal laser treatment of both eyes performed in 2008 to the Ukrainian and English home, Journey, Medical Case and Timeline content.
