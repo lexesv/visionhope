@@ -12,7 +12,7 @@ https://visionhope.pp.ua
 
 🚧 Production-ready; support methods and treatment estimates are updated as they become available
 
-Current internal version: 1.4.0
+Current internal version: 1.4.2
 
 ## Main principles
 

@@ -1,4 +1,23 @@
 # Changelog
+## 1.4.2 — Retinal Treatment History Update
+
+- Added the emergency PPLC/retinal laser treatment of both eyes performed in 2008 to the Ukrainian and English home, Journey, Medical Case and Timeline content.
+- Clearly disclosed that the 2008 procedure was performed at a public clinic before an exact diagnosis was established and that its medical records are unavailable.
+- Distinguished the undocumented 2008 procedure from the documented repeat retinal laser treatment in 2021.
+- Removed `<meta name="robots" content="noindex,follow">` from the root `index.html`.
+- Left `assets/data/support.json` and the PayPal configuration unchanged.
+- Synchronized the displayed project version to 1.4.2.
+
+## 1.4.1 — Content & Trust Update
+
+- Strengthened the Ukrainian and English home pages with a clearer explanation of the real-life impact of vision loss and the need for treatment support.
+- Added a dedicated home-page section explaining why scleral lenses were not a viable solution.
+- Expanded the scleral-lens history on the Journey pages with the adaptation period, pain, tearing, persistent discomfort and unstable vision.
+- Updated the Medical Case pages to record the unsuccessful outcome of the scleral-lens trial.
+- Improved the introductory text on the Support pages without changing `assets/data/support.json`.
+- Preserved the PayPal configuration and `assets/img/paypal-qr.png` unchanged.
+- Synchronized the displayed project version to 1.4.1.
+
 ## 1.4.0 — Production readiness audit
 
 - Added `browserconfig.xml` and `llms.txt`.
