@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.5.0] - 2026-07-18
+
+### SEO Foundation
+
+- Optimized titles and meta descriptions across all Ukrainian and English pages.
+- Added page-specific Schema.org JSON-LD: WebSite, Person, MedicalWebPage, MedicalCondition, ProfilePage, CollectionPage and BreadcrumbList.
+- Expanded Open Graph and Twitter image metadata.
+- Added explicit indexing, author and referrer metadata.
+- Added multilingual hreflang annotations and last-modified dates to the XML sitemap.
+- Expanded `llms.txt` with verified medical context and canonical page references.
+- Optimized website and medical-document images without changing their content.
+- Synchronized the project version to 1.5.0.
+
 ## 1.4.3 — Medical Consistency Update
 
 - Replaced the English PMD diagnosis on the Ukrainian Medical Case page with the correct Ukrainian terminology.

@@ -1,21 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://visionhope.pp.ua/uk/</loc></url>
-  <url><loc>https://visionhope.pp.ua/en/</loc></url>
-  <url><loc>https://visionhope.pp.ua/uk/story.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/en/story.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/uk/medical-case.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/en/medical-case.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/uk/documents.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/en/documents.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/uk/timeline.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/en/timeline.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/uk/updates.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/en/updates.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/uk/support.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/en/support.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/uk/identity.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/en/identity.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/uk/privacy.html</loc></url>
-  <url><loc>https://visionhope.pp.ua/en/privacy.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://visionhope.pp.ua/uk/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/en/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/uk/story.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/story.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/story.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/story.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/en/story.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/story.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/story.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/story.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/uk/medical-case.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/medical-case.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/medical-case.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/medical-case.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/en/medical-case.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/medical-case.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/medical-case.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/medical-case.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/uk/documents.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/documents.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/en/documents.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/documents.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/uk/timeline.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/timeline.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/timeline.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/timeline.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/en/timeline.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/timeline.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/timeline.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/timeline.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/uk/updates.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/updates.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/en/updates.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/updates.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/uk/support.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/support.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/en/support.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/support.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/uk/identity.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/identity.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/identity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/identity.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/en/identity.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/identity.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/identity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/identity.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/uk/privacy.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://visionhope.pp.ua/en/privacy.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://visionhope.pp.ua/uk/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionhope.pp.ua/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionhope.pp.ua/en/privacy.html"/>
+  </url>
 </urlset>

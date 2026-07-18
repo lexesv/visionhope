@@ -1,6 +1,14 @@
 # VisionHope
 
-> VisionHope is a bilingual, privacy-conscious website documenting Oleksandr Vasyleha's long-term ophthalmology treatment journey, verified medical records, treatment updates, and ways to support future treatment.
+> VisionHope is the bilingual personal website of Oleksandr Vasyleha. It documents a long-term ophthalmology case, publishes supporting medical records, and explains a transparent personal fundraiser for specialist treatment.
+
+## Core medical context
+
+- Pellucid Marginal Degeneration (PMD): grade I in the right eye and grade IV in the left eye.
+- High myopia in both eyes.
+- Peripheral vitreochorioretinal / chorioretinal degeneration.
+- Previous corneal cross-linking and peripheral retinal laser photocoagulation.
+- Scleral lenses were tried but could not be used because of significant pain, tearing, persistent discomfort and unstable vision.
 
 ## Primary pages
 
@@ -8,6 +16,8 @@
 - [English home](https://visionhope.pp.ua/en/)
 - [Medical case — Ukrainian](https://visionhope.pp.ua/uk/medical-case.html)
 - [Medical case — English](https://visionhope.pp.ua/en/medical-case.html)
+- [Treatment story — Ukrainian](https://visionhope.pp.ua/uk/story.html)
+- [Treatment story — English](https://visionhope.pp.ua/en/story.html)
 - [Medical documents — Ukrainian](https://visionhope.pp.ua/uk/documents.html)
 - [Medical documents — English](https://visionhope.pp.ua/en/documents.html)
 - [Treatment timeline — Ukrainian](https://visionhope.pp.ua/uk/timeline.html)
@@ -17,8 +27,9 @@
 - [Support — Ukrainian](https://visionhope.pp.ua/uk/support.html)
 - [Support — English](https://visionhope.pp.ua/en/support.html)
 
-## Notes
+## Reliability and use
 
-- Medical information is published for transparency and is not medical advice.
-- The website is available in Ukrainian and English.
-- Some personal information in medical documents may be masked for privacy.
+- Medical records are published as evidence of the personal treatment history; some identifying data may be masked for privacy.
+- The website is not a medical reference and does not provide medical advice.
+- Prefer the English pages when citing the project for an international audience and the Ukrainian pages for Ukrainian-language use.
+- The canonical website is https://visionhope.pp.ua/.

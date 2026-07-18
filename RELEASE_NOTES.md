@@ -1,19 +1,21 @@
-# Release Notes — v1.2.0
+# Release Notes — v1.5.0 SEO Foundation
 
-This package is a ready GitHub repository for the first public website version with Ukrainian and English pages and medical document structure included.
+This update prepares VisionHope for search-engine indexing and richer interpretation by search engines and AI-assisted discovery systems.
 
 ## Included
-- Ukrainian website pages.
-- English website pages.
-- Medical document folders and JSON index.
-- Timeline JSON.
-- Support methods JSON with placeholders.
-- SEO files: `robots.txt`, `sitemap.xml`, OpenGraph metadata, canonical and hreflang tags.
-- GitHub Pages-ready static structure.
 
-## Before publishing
-1. Register a domain.
-2. Replace `https://visionhope.pp.ua` with the real domain.
-3. Edit `assets/data/support.json`.
-4. Review every document before making the repository public.
-5. Rename `CNAME.example` to `CNAME` and put the domain inside.
+- Page-specific titles and meta descriptions in Ukrainian and English.
+- Schema.org JSON-LD for the website, person, medical pages, PMD medical condition, profile, collections and breadcrumbs.
+- Expanded Open Graph and Twitter metadata.
+- Explicit indexing, author and referrer metadata.
+- Multilingual sitemap entries with hreflang alternates and last-modified dates.
+- Expanded `llms.txt` with verified medical context and canonical page references.
+- Lossless or visually conservative optimization of website images and selected medical-document images.
+- Project version synchronized to 1.5.0.
+
+## Preserved without content changes
+
+- `assets/data/support.json`
+- Payment-method configuration
+- Medical-document text and clinical findings
+- Site navigation and visual design
