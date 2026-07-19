@@ -1,7 +1,7 @@
 {
   "project": {
     "name": "VisionHope",
-    "version": "1.5.0",
+    "version": "1.5.2",
     "status": "production"
   },
   "site": {
@@ -9,5 +9,5 @@
     "defaultLanguage": "uk"
   },
   "contact": {},
-  "version": "1.5.0"
+  "version": "1.5.2"
 }

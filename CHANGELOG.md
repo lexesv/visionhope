@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.5.2] - 2026-07-19
+
+### Repository Cleanup & Consistency
+
+- Corrected the medical report dated 27 November 2021 that had been incorrectly presented as a 2026 current diagnosis.
+- Consolidated three copies of the same 2021 retinal report into one optimized file with an ASCII-safe filename.
+- Renamed the `14.02.2020(1)` archive directory to `14.02.2020`.
+- Removed five byte-identical duplicate images from the 14 February 2020 examination set.
+- Replaced raw image filenames in the document catalogue with clearer Ukrainian and English titles.
+- Synchronized the project version to 1.5.2 without changing `support.json` or payment configuration.
+
 ## [1.5.0] - 2026-07-18
 
 ### SEO Foundation
