@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.3] - 2026-07-19
+
+### Changed
+- Rebuilt `sitemap.xml` in a minimal, conventional Sitemap XML format.
+- Removed the optional `xhtml:link` hreflang extension from the sitemap to simplify Google Search Console diagnostics.
+- Added `changefreq` and `priority` hints while preserving all 18 Ukrainian and English page URLs.
+- Synchronized the displayed project version to 1.5.3.
+
 ## [1.5.2] - 2026-07-19
 
 ### Repository Cleanup & Consistency
