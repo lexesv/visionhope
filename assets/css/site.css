@@ -266,8 +266,9 @@ body {
 }
 
 .support-note {
-    padding: .65rem .75rem;
-    border-left: 3px solid var(--brand);
-    background: var(--soft);
-    border-radius: .25rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-size: 0.875rem;
+    line-height: 1.45;
 }
