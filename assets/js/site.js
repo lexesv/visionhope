@@ -89,16 +89,19 @@ async function renderSupportMethods(){
     const title=getLocalized(m,'title');
     const description=getLocalized(m,'description');
     const display=getLocalized(m,'display');
+    const note=getLocalized(m,'note');
+
     return `<div class="col-md-6 col-lg-4">
-      <div class="card support-method h-100">
-        <div class="card-body d-flex flex-column">
-          <div class="h5"><i class="${escapeAttr(m.icon||'fa-solid fa-circle-info')} me-2 text-primary"></i>${title}</div>
-          ${description?`<p class="small-muted mb-2">${description}</p>`:''}
-          ${display?`<div class="copy-value small-muted mb-3">${display}</div>`:''}
-          <div class="mt-auto">${renderAction(m)}</div>
-        </div>
+    <div class="card support-method h-100">
+      <div class="card-body d-flex flex-column">
+        <div class="h5"><i class="${escapeAttr(m.icon||'fa-solid fa-circle-info')} me-2 text-primary"></i>${title}</div>
+        ${description?`<p class="small-muted mb-2">${description}</p>`:''}
+        ${display?`<div class="copy-value small-muted mb-2">${display}</div>`:''}
+        ${note?`<div class="support-note small-muted mb-3">${note}</div>`:''}
+        <div class="mt-auto">${renderAction(m)}</div>
       </div>
-    </div>`;
+    </div>
+  </div>`;
   }).join('');
 
   document.querySelectorAll('[data-copy]').forEach(button=>{
