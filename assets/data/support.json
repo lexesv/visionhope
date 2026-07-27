@@ -52,7 +52,7 @@
       "display_en": "alexandr.vasilega@gmail.com <img width=200 src='/assets/img/paypal-qr.png'></img>",
       "icon": "fa-brands fa-paypal",
       "priority": 30,
-      "enabled": false,
+      "enabled": true,
       "action": {
         "type": "copy",
         "value": "alexandr.vasilega@gmail.com",
